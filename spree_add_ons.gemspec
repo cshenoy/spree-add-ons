@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_add_ons'
-  s.version     = '2.4.6.beta'
+  s.version     = '3.1.0'
   s.summary     = 'Allows products to have add ons with corresponding features and fees.'
   s.description = 'See summary.'
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.3.0'
 
   s.author    = "Darby Perez, Anthony D'addeo"
   s.email     = 'darby@personalwine.com, anthony@personalwine.com'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.4.6'
+  s.add_dependency 'spree_core', '~> 3.1.0'
   s.add_dependency 'slim'
   s.add_dependency 'active_model_serializers'
 
